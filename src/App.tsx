@@ -42,6 +42,7 @@ const monadTestnet: Chain = {
   testnet: true,
 };
 
+// eslint-disable-next-line react-refresh/only-export-components
 export const config = getDefaultConfig({
   appName: 'ERC20 Factory',
   projectId: 'YOUR_WALLETCONNECT_PROJECT_ID', // Dapatkan dari https://cloud.walletconnect.com
